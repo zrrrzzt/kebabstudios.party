@@ -13,6 +13,9 @@ export default () => (
       <span className={contact}><a href='https://twitter.com/KebabStudios' target='_blank' className={peker}>Twitter</a></span>
       <span className={contact}><a href='https://itch.io' target='_blank' className={peker}>itch.io</a></span>
     </div>
+    <div className={style}>
+      <a href="https://robots.kebabstudios.party"><img src='https://robots.kebabstudios.party/robots.kebabstudios.party.png' /></a>
+    </div>
   </div>
 )
 
