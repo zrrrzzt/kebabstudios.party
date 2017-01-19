@@ -36,6 +36,9 @@
   "bugs": {
     "url": "http://github.com/zrrrzzt/kebabstudios.party/issues"
   },
+  "greenkeeper": {
+    "emails": false
+  },
   "now": {
     "alias": "kebabstudios.party"
   },
