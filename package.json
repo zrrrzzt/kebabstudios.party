@@ -1,7 +1,7 @@
 {
   "name": "kebabstudios.party",
   "description": "Frontpage for Kebab Studios",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -40,7 +40,10 @@
     "emails": false
   },
   "now": {
-    "alias": "kebabstudios.party"
+    "alias": "kebabstudios.party",
+    "env": {
+      "NODE_ENV": "production"
+    }
   },
   "devDependencies": {
     "coveralls": "2.11.15",
