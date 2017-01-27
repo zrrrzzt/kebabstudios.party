@@ -1,14 +1,13 @@
 {
   "name": "kebabstudios.party",
   "description": "Frontpage for Kebab Studios",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
     "url": "https://github.com/zrrrzzt"
   },
-  "main": "index.js",
   "engines": {
     "node": ">=7.4.0"
   },
