@@ -40,13 +40,6 @@ const peker = css({
   textDecoration: 'none'
 })
 
-const button = css({
-  textDecoration: 'none',
-  border: '2px dotted rgb(227,108,9)',
-  padding: '3px',
-  color: 'rgb(0, 112, 192)'
-})
-
 const body = css({
   backgroundColor: 'black'
 })
