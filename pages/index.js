@@ -1,9 +1,11 @@
 'use strict'
 
+import Head from '../components/head'
 import css from 'next/css'
 
 export default () => (
-  <div>
+  <body className={body}>
+    <Head />
     <div className={style}>
       <h1>Kebab Studios</h1>
       <img src='/static/images/Bakgrunn.jpg' />
@@ -16,19 +18,35 @@ export default () => (
     <div className={style}>
       <a href='https://robots.kebabstudios.party'><img src='https://robots.kebabstudios.party/robots.kebabstudios.party.png' /></a>
     </div>
-  </div>
+    <div className={style}>
+      <span className={contact}><a href='https://russian.kebabstudios.party/html' title='Do you dare.... to play... russian kebab?' target='_blank' className={peker}>Give me a kebab</a></span>
+    </div>
+  </body>
 )
 
 const style = css({
   textAlign: 'center',
-  fontSize: '4em'
+  fontSize: '4em',
+  color: 'rgb(227,108,9)'
 })
 
 const contact = css({
-  padding: '1em'
+  padding: '1em',
+  color: 'rgb(0, 112, 192)'
 })
 
 const peker = css({
-  color: 'black',
+  color: 'rgb(0, 112, 192)',
   textDecoration: 'none'
+})
+
+const button = css({
+  textDecoration: 'none',
+  border: '2px dotted rgb(227,108,9)',
+  padding: '3px',
+  color: 'rgb(0, 112, 192)'
+})
+
+const body = css({
+  backgroundColor: 'black'
 })
