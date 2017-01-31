@@ -1,7 +1,7 @@
 {
   "name": "kebabstudios.party",
   "description": "Frontpage for Kebab Studios",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -21,7 +21,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "now-deploy": "npm test && now --npm && now alias"
+    "now-deploy": "npm test && now --alias"
   },
   "keywords": [
     "Kebab Studios",
@@ -35,11 +35,10 @@
   "bugs": {
     "url": "http://github.com/zrrrzzt/kebabstudios.party/issues"
   },
-  "greenkeeper": {
-    "emails": false
-  },
   "now": {
-    "alias": "kebabstudios.party",
+    "aliases": [
+      "kebabstudios.party"
+    ],
     "env": {
       "NODE_ENV": "production"
     }

@@ -1,11 +1,9 @@
 'use strict'
 
-import Head from '../components/head'
 import css from 'next/css'
 
 export default () => (
   <body className={body}>
-    <Head />
     <div className={style}>
       <h1>Kebab Studios</h1>
       <img src='/static/images/NyBakgrunn.png' />
