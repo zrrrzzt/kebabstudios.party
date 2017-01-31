@@ -8,7 +8,7 @@ export default () => (
     <Head />
     <div className={style}>
       <h1>Kebab Studios</h1>
-      <img src='/static/images/Bakgrunn.jpg' />
+      <img src='/static/images/Fiksa bakgrunn.png' />
     </div>
     <div className={style}>
       <span className={contact}><a href='mailto:kebab.studios.party.2003@gmail.com' target='_blank' className={peker}>Mail</a></span>
