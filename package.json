@@ -9,7 +9,7 @@
     "url": "https://github.com/zrrrzzt"
   },
   "engines": {
-    "node": ">=7.5.0"
+    "node": ">=7.6.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
