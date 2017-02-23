@@ -1,8 +1,9 @@
 {
   "name": "kebabstudios.party",
   "description": "Frontpage for Kebab Studios",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
@@ -51,6 +52,7 @@
     "tap": "10.2.0"
   },
   "dependencies": {
-    "next": "1.2.3"
+    "next": "1.2.3",
+    "react-particles-js": "1.4.0"
   }
 }
