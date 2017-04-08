@@ -49,12 +49,12 @@
   "devDependencies": {
     "coveralls": "2.13.0",
     "nsp": "2.6.3",
-    "standard": "9.0.2",
+    "standard": "10.0.1",
     "tap": "10.3.1"
   },
   "dependencies": {
-    "next": "2.0.1",
+    "next": "2.1.0",
     "react": "15.5.0",
-    "react-dom": "15.4.2"
+    "react-dom": "15.5.0"
   }
 }
