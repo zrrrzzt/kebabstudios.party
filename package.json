@@ -55,6 +55,6 @@
   "dependencies": {
     "next": "2.1.0",
     "react": "15.5.3",
-    "react-dom": "15.5.3"
+    "react-dom": "15.5.4"
   }
 }
