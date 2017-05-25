@@ -1,7 +1,7 @@
 {
   "name": "kebabstudios.party",
   "description": "Frontpage for Kebab Studios",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "license": "MIT",
   "private": true,
   "author": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/zrrrzzt"
   },
   "engines": {
-    "node": ">=7.8.0"
+    "node": ">=7.10.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -20,9 +20,9 @@
     "setup": "npm install",
     "standard-fix": "standard --fix",
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
-    "now-deploy": "npm test && now && now alias"
+    "now-deploy": "npm run build && now out --static -n kebabstudios-web && now alias"
   },
   "keywords": [
     "Kebab Studios",
@@ -38,6 +38,7 @@
   },
   "homepage": "https://github.com/zrrrzzt/kebabstudios.party",
   "now": {
+    "name": "kebabstudios-web",
     "alias": [
       "kebabstudios.party"
     ],
@@ -53,7 +54,7 @@
     "tap": "10.3.2"
   },
   "dependencies": {
-    "next": "2.4.0",
+    "next": "3.0.0-beta6",
     "react": "15.5.4",
     "react-dom": "15.5.4"
   }
