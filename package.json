@@ -1,7 +1,7 @@
 {
   "name": "kebabstudios.party",
   "description": "Frontpage for Kebab Studios",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "private": true,
   "author": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/zrrrzzt"
   },
   "engines": {
-    "node": ">=7.10.0"
+    "node": ">=8.0.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -54,7 +54,7 @@
     "tap": "10.3.2"
   },
   "dependencies": {
-    "next": "3.0.0-beta6",
+    "next": "3.0.0-beta8",
     "react": "15.5.4",
     "react-dom": "15.5.4"
   }
