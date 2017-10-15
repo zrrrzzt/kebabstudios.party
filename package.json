@@ -54,7 +54,7 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "next": "4.0.4",
+    "next": "4.0.5",
     "react": "16.0.0",
     "react-dom": "16.0.0"
   }
