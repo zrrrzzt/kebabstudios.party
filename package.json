@@ -1,7 +1,7 @@
 {
   "name": "kebabstudios.party",
   "description": "Frontpage for Kebab Studios",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "license": "MIT",
   "private": true,
   "author": {
@@ -10,7 +10,7 @@
     "url": "https://github.com/zrrrzzt"
   },
   "engines": {
-    "node": ">=8.6.0"
+    "node": ">=8.7.0"
   },
   "scripts": {
     "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
@@ -22,7 +22,7 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start",
-    "now-deploy": "npm run build && now out --static -n kebabstudios-web && now alias"
+    "now-deploy": "npm run test && npm run build && now out --static -n kebabstudios-web && now alias"
   },
   "keywords": [
     "Kebab Studios",
