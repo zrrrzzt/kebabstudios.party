@@ -58,7 +58,7 @@
     "tap": "12.5.2"
   },
   "dependencies": {
-    "next": "7.0.2",
+    "next": "7.0.3",
     "react": "16.8.1",
     "react-dom": "16.8.1"
   }
