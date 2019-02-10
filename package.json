@@ -57,8 +57,22 @@
     "tap": "12.5.2"
   },
   "dependencies": {
+    "babel-eslint": "10.0.1",
     "next": "7.0.3",
     "react": "16.8.1",
     "react-dom": "16.8.1"
+  },
+  "standard": {
+    "ignore": [
+      "/static/*.js"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true,
+        "jsx": true
+      },
+      "sourceType": "module"
+    }
   }
 }
