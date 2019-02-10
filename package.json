@@ -21,7 +21,8 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start",
-    "now-deploy": "npm run test && npm run build && now out --static -n kebabstudios-web && now alias",
+    "now-build": "next build && next export",
+    "deploy": "npm test && now && now alias",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
     "clear": "rm -rf out && rm -rf .next"
   },
@@ -38,19 +39,6 @@
     "url": "https://github.com/zrrrzzt/kebabstudios.party/issues"
   },
   "homepage": "https://github.com/zrrrzzt/kebabstudios.party#readme",
-  "now": {
-    "name": "kebabstudios-web",
-    "alias": [
-      "kebabstudios.party"
-    ],
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "type": "npm",
-    "engines": {
-      "node": "10.1.0"
-    }
-  },
   "devDependencies": {
     "coveralls": "3.0.2",
     "standard": "12.0.1",
