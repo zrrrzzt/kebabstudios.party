@@ -48,8 +48,8 @@
   "dependencies": {
     "babel-eslint": "10.0.3",
     "next": "9.0.7",
-    "react": "16.10.0",
-    "react-dom": "16.10.0"
+    "react": "16.10.1",
+    "react-dom": "16.10.1"
   },
   "standard": {
     "ignore": [
