@@ -41,7 +41,7 @@
   "homepage": "https://github.com/zrrrzzt/kebabstudios.party#readme",
   "devDependencies": {
     "coveralls": "3.0.9",
-    "nyc": "14.1.1",
+    "nyc": "15.0.0",
     "standard": "14.3.1",
     "tap": "14.10.5"
   },
